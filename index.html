@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #f4f4f9;
+            --text-color: #333;
+            --accent-color: #007bff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .project-card {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm [Your Name]</h1>
+        <p>Software Developer | Tech Enthusiast</p>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am a passionate developer building simple, effective solutions. Welcome to my GitHub portfolio.</p>
+        
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3><a href="#">Secure Password Generator</a></h3>
+            <p>A Python-based CLI tool to generate cryptographically strong passwords.</p>
+        </div>
+        <div class="project-card">
+            <h3><a href="#">Pomodoro Timer</a></h3>
+            <p>A terminal-based focus timer built in Python to enhance productivity.</p>
+        </div>
+    </div>
+</body>
+</html>
